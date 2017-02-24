@@ -1,0 +1,233 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #d7d7c1;
+}
+ /************FOR CORRECT TABLE DATA/ROW DISPLAY 
+             WHEN SCREEN RESOLUTION (SCR_RES) < 600PX*********/
+.rowDisplay {
+    display: initial;
+}
+
+.dataDisplay {
+    display: none;
+    /*border-left: 1px solid #cccccc;*/
+}
+/****************************************************/
+ /* For mobile phones. APPLYED WHEN SCR_RES < 600PX: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/*FOR PERSON DESC/IMG CORRECT ALIGNMENT WHEN SCR_RES < 600PX*/
+.person-desc {
+    text-align: center;
+}
+
+.person-img {
+    display: block;
+    /*margin-bottom: 12px;*/
+    max-width: 256px;
+    max-height: 256px;
+}
+
+.person-img-desc-display {
+    margin: auto;
+}
+/****************************************************/
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    .person-desc {
+        padding-left: 24px;
+        text-align: left;
+    }
+    
+    /*FOR CORRECT TABLE DATA/ROW DISPLAY 
+             WHEN SCR_RES > 768PX*/
+    .person-img-desc-display {
+        float: left;
+    }
+    /****************************/
+    .dataDisplay {
+        display: table-cell;
+    }
+    /****************************/
+    .rowDisplay {
+        display: none;
+    }
+    /****************************/
+}
+
+.container {
+    margin: auto;
+    background-color: #ebebe0; /*light grey*/
+}
+
+/*PERSON DESCRIPTION HEADER*/
+.person-desc h1 {
+    font-size: 24px;
+}
+
+.person-desc h3 {
+    font-size: 18px;
+}
+
+.person-desc p {
+    font-size: 14px;
+}
+
+.contactMe {
+    display: inline-block;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contactMe li {
+    float: left;
+}
+
+.contactMe li a {
+    display: block;
+}
+
+.contactMe li a img {
+    width: 32px;
+    height: 32px;
+}
+/**********************************/
+/********TABLE DESCRIPTIONS*******/
+#edu-exp {
+    clear: both;
+    width: 100%;
+    /*margin: 12px 0px 0px 0px;*/
+    background-color: #f2f2f2; /*light grey*/
+}
+
+#edu-exp td {
+    padding: 12px 24px;
+    vertical-align: top;
+}
+
+#edu-exp td .header {
+    display: inline-block;
+    width: 100%;
+    text-align: center  !important;
+    padding: 12px 0px 12px 0px;
+}
+
+#edu-exp td .text {
+    display: inline-block;
+    width: 100%;
+    text-align: justify !important;
+}
+
+.text p {
+    display: inline-block;
+    text-indent: 12px;
+}
+
+#edu-exp td a {
+    color: black;
+}
+/*********************************/
+.footer {
+    clear: both;
+    padding-top: 24px;
+    height: 50px;
+    background-color: #d7d7c1;
+    text-align: left;
+    text-indent: 24px;
+    font-size: 14px;
+}
+/***********************************/
+/* callback form */
+#callback {
+	width: 400px;
+	display: block;
+	margin: auto;
+	/*margin: 25px 0px 0px 0px;*/
+	padding: 0px;
+}
+
+input[type=text] {
+	width: 350px;
+	margin: 10px 0px;
+	padding: 12px 20px;
+	border: none;
+	border-bottom: 2px solid #b8b894;
+	background-color: #f5f5f0;
+}
+
+input[type=email] {
+	width: 350px;
+	margin: 10px 0px;
+	padding: 12px 20px;
+	border: none;
+	border-bottom: 2px solid #b8b894;
+	background-color: #f5f5f0;
+}
+
+textarea {
+	resize: none;
+	width: 350px;
+	margin: 10px 0px;
+	padding: 12px 20px;
+	border: none;
+	border-left: 2px solid #b8b894;
+	background-color: #f5f5f0;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+	width: 30%;
+	display: block;
+	margin: 10px 0px 25px 0px;
+	padding: 12px 20px;
+	border: none;
+	background-color: #b8b894;
+	text-align: center;
+	color: white;
+}
+
+input[type=submit] {
+	float: left;
+}
+
+input[type=button] {
+	float: right;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+	background-color: #a3a375;
+}
