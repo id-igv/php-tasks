@@ -1,0 +1,11 @@
+# Словарь запрещенных к употреблению слов. Строки файла которые начинаються с символа '#' будут игнорироваться скриптом. 
+# ПРАВИЛО: Одна строка - одно слово/фраза
+# Dictionary of banned words. Strings are started with # symbol will be ignored by script
+# RULE: One string - one word/phrase
+слово
+слова
+запрет
+казнь
+применение
+word
+words

@@ -1,0 +1,56 @@
+<hr>
+                    <p>
+                        <font align='left'>
+                            Ilia
+                        </font>
+                        <font align='right'>
+                            18.03.2017  23:10
+                        </font>
+                    </p>
+                    <p>
+                        <font align='justify'>
+                            Hello!
+                        </font>
+                    </p>
+<hr>
+                    <p>
+                        <font align='left'>
+                            Phill
+                        </font>
+                        <font align='right'>
+                            18.03.2017  23:12
+                        </font>
+                    </p>
+                    <p>
+                        <font align='justify'>
+                            Hi guys!
+                        </font>
+                    </p>
+<hr>
+                    <p>
+                        <font align='left'>
+                            
+                        </font>
+                        <font align='right'>
+                            18.03.2017  23:16
+                        </font>
+                    </p>
+                    <p>
+                        <font align='justify'>
+                            fgfg
+                        </font>
+                    </p>
+<hr>
+                    <p>
+                        <font align='left'>
+                            
+                        </font>
+                        <font align='right'>
+                            18.03.2017  23:19
+                        </font>
+                    </p>
+                    <p>
+                        <font align='justify'>
+                            sfsfsdf
+                        </font>
+                    </p>
